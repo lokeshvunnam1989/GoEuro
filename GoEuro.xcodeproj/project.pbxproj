@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF9A6E481DA81561003A7F02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9A6E471DA81561003A7F02 /* main.m */; };
+		CF9A6E4B1DA81561003A7F02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9A6E4A1DA81561003A7F02 /* AppDelegate.m */; };
+		CF9A6E511DA81561003A7F02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF9A6E4F1DA81561003A7F02 /* Main.storyboard */; };
+		CF9A6E561DA81561003A7F02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF9A6E551DA81561003A7F02 /* Assets.xcassets */; };
+		CF9A6E591DA81561003A7F02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF9A6E571DA81561003A7F02 /* LaunchScreen.storyboard */; };
+		CF9A6E641DA81F31003A7F02 /* GoEuroTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9A6E631DA81F31003A7F02 /* GoEuroTabBarVC.m */; };
+		CF9A6E681DA81FAE003A7F02 /* TrainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9A6E661DA81FAE003A7F02 /* TrainViewController.m */; };
+		CF9A6E691DA81FAE003A7F02 /* TrainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF9A6E671DA81FAE003A7F02 /* TrainViewController.xib */; };
+		CF9A6E6D1DA81FC0003A7F02 /* BusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9A6E6B1DA81FC0003A7F02 /* BusViewController.m */; };
+		CF9A6E6E1DA81FC0003A7F02 /* BusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF9A6E6C1DA81FC0003A7F02 /* BusViewController.xib */; };
+		CF9A6E721DA81FDA003A7F02 /* FlightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9A6E701DA81FDA003A7F02 /* FlightViewController.m */; };
+		CF9A6E731DA81FDA003A7F02 /* FlightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF9A6E711DA81FDA003A7F02 /* FlightViewController.xib */; };
+		CF9A6E791DA82099003A7F02 /* YSLContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9A6E761DA82099003A7F02 /* YSLContainerViewController.m */; };
+		CF9A6E7A1DA82099003A7F02 /* YSLScrollMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9A6E781DA82099003A7F02 /* YSLScrollMenuView.m */; };
+		CF9A6E801DA827B2003A7F02 /* TrainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9A6E7E1DA827B2003A7F02 /* TrainCell.m */; };
+		CF9A6E811DA827B2003A7F02 /* TrainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF9A6E7F1DA827B2003A7F02 /* TrainCell.xib */; };
+		CF9A6E8A1DA833B4003A7F02 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9A6E851DA833B4003A7F02 /* JSONModel.m */; };
+		CF9A6E8B1DA833B4003A7F02 /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9A6E871DA833B4003A7F02 /* JSONModelClassProperty.m */; };
+		CF9A6E8C1DA833B4003A7F02 /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9A6E891DA833B4003A7F02 /* JSONModelError.m */; };
+		CF9A6E951DA833D4003A7F02 /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9A6E901DA833D4003A7F02 /* JSONAPI.m */; };
+		CF9A6E961DA833D4003A7F02 /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9A6E921DA833D4003A7F02 /* JSONHTTPClient.m */; };
+		CF9A6E971DA833D4003A7F02 /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9A6E941DA833D4003A7F02 /* JSONModel+networking.m */; };
+		CF9A6E9D1DA833F3003A7F02 /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9A6E9A1DA833F3003A7F02 /* JSONKeyMapper.m */; };
+		CF9A6E9E1DA833F3003A7F02 /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9A6E9C1DA833F3003A7F02 /* JSONValueTransformer.m */; };
+		CF9A6EA21DA835F3003A7F02 /* Trains.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9A6EA11DA835F3003A7F02 /* Trains.m */; };
+		CF9A6EA61DA83F4E003A7F02 /* EMAsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9A6EA51DA83F4E003A7F02 /* EMAsyncImageView.m */; };
+		CF9A6EAA1DA84D85003A7F02 /* URLs.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9A6EA91DA84D85003A7F02 /* URLs.m */; };
+		CF9A6EAD1DA84FB1003A7F02 /* Bus.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9A6EAC1DA84FB1003A7F02 /* Bus.m */; };
+		CF9A6EB01DA8500D003A7F02 /* Flight.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9A6EAF1DA8500D003A7F02 /* Flight.m */; };
+		CF9A6EB41DA85037003A7F02 /* BusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9A6EB21DA85037003A7F02 /* BusCell.m */; };
+		CF9A6EB51DA85037003A7F02 /* BusCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF9A6EB31DA85037003A7F02 /* BusCell.xib */; };
+		CF9A6EB91DA8504D003A7F02 /* FlightCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9A6EB71DA8504D003A7F02 /* FlightCell.m */; };
+		CF9A6EBA1DA8504D003A7F02 /* FlightCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF9A6EB81DA8504D003A7F02 /* FlightCell.xib */; };
+		CF9A6EBD1DA8D430003A7F02 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9A6EBC1DA8D430003A7F02 /* BaseViewController.m */; };
+		CF9A6ECB1DA90467003A7F02 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9A6ECA1DA90467003A7F02 /* Reachability.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF9A6E431DA81561003A7F02 /* GoEuro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoEuro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF9A6E471DA81561003A7F02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF9A6E491DA81561003A7F02 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF9A6E4A1DA81561003A7F02 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF9A6E501DA81561003A7F02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF9A6E551DA81561003A7F02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF9A6E581DA81561003A7F02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF9A6E5A1DA81561003A7F02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF9A6E621DA81F31003A7F02 /* GoEuroTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GoEuroTabBarVC.h; path = Controller/GoEuroTabBarVC.h; sourceTree = "<group>"; };
+		CF9A6E631DA81F31003A7F02 /* GoEuroTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GoEuroTabBarVC.m; path = Controller/GoEuroTabBarVC.m; sourceTree = "<group>"; };
+		CF9A6E651DA81FAE003A7F02 /* TrainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrainViewController.h; path = Controller/TrainViewController.h; sourceTree = "<group>"; };
+		CF9A6E661DA81FAE003A7F02 /* TrainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrainViewController.m; path = Controller/TrainViewController.m; sourceTree = "<group>"; };
+		CF9A6E671DA81FAE003A7F02 /* TrainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TrainViewController.xib; path = Controller/TrainViewController.xib; sourceTree = "<group>"; };
+		CF9A6E6A1DA81FC0003A7F02 /* BusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BusViewController.h; path = Controller/BusViewController.h; sourceTree = "<group>"; };
+		CF9A6E6B1DA81FC0003A7F02 /* BusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BusViewController.m; path = Controller/BusViewController.m; sourceTree = "<group>"; };
+		CF9A6E6C1DA81FC0003A7F02 /* BusViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BusViewController.xib; path = Controller/BusViewController.xib; sourceTree = "<group>"; };
+		CF9A6E6F1DA81FDA003A7F02 /* FlightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlightViewController.h; path = Controller/FlightViewController.h; sourceTree = "<group>"; };
+		CF9A6E701DA81FDA003A7F02 /* FlightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlightViewController.m; path = Controller/FlightViewController.m; sourceTree = "<group>"; };
+		CF9A6E711DA81FDA003A7F02 /* FlightViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FlightViewController.xib; path = Controller/FlightViewController.xib; sourceTree = "<group>"; };
+		CF9A6E751DA82099003A7F02 /* YSLContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YSLContainerViewController.h; path = "Supporting Files/YSLContainerViewController/YSLContainerViewController.h"; sourceTree = "<group>"; };
+		CF9A6E761DA82099003A7F02 /* YSLContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YSLContainerViewController.m; path = "Supporting Files/YSLContainerViewController/YSLContainerViewController.m"; sourceTree = "<group>"; };
+		CF9A6E771DA82099003A7F02 /* YSLScrollMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YSLScrollMenuView.h; path = "Supporting Files/YSLContainerViewController/YSLScrollMenuView.h"; sourceTree = "<group>"; };
+		CF9A6E781DA82099003A7F02 /* YSLScrollMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YSLScrollMenuView.m; path = "Supporting Files/YSLContainerViewController/YSLScrollMenuView.m"; sourceTree = "<group>"; };
+		CF9A6E7B1DA8217C003A7F02 /* GoEuro.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GoEuro.pch; path = "Supporting Files/GoEuro.pch"; sourceTree = "<group>"; };
+		CF9A6E7D1DA827B2003A7F02 /* TrainCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrainCell.h; path = "Custom Cell/TrainCell.h"; sourceTree = "<group>"; };
+		CF9A6E7E1DA827B2003A7F02 /* TrainCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrainCell.m; path = "Custom Cell/TrainCell.m"; sourceTree = "<group>"; };
+		CF9A6E7F1DA827B2003A7F02 /* TrainCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TrainCell.xib; path = "Custom Cell/TrainCell.xib"; sourceTree = "<group>"; };
+		CF9A6E841DA833B4003A7F02 /* JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONModel.h; path = JSONModel/JSONModel/JSONModel.h; sourceTree = "<group>"; };
+		CF9A6E851DA833B4003A7F02 /* JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONModel.m; path = JSONModel/JSONModel/JSONModel.m; sourceTree = "<group>"; };
+		CF9A6E861DA833B4003A7F02 /* JSONModelClassProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONModelClassProperty.h; path = JSONModel/JSONModel/JSONModelClassProperty.h; sourceTree = "<group>"; };
+		CF9A6E871DA833B4003A7F02 /* JSONModelClassProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONModelClassProperty.m; path = JSONModel/JSONModel/JSONModelClassProperty.m; sourceTree = "<group>"; };
+		CF9A6E881DA833B4003A7F02 /* JSONModelError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONModelError.h; path = JSONModel/JSONModel/JSONModelError.h; sourceTree = "<group>"; };
+		CF9A6E891DA833B4003A7F02 /* JSONModelError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONModelError.m; path = JSONModel/JSONModel/JSONModelError.m; sourceTree = "<group>"; };
+		CF9A6E8D1DA833C1003A7F02 /* JSONModelLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONModelLib.h; path = JSONModel/JSONModelLib.h; sourceTree = "<group>"; };
+		CF9A6E8F1DA833D4003A7F02 /* JSONAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONAPI.h; path = JSONModel/JSONModelNetworking/JSONAPI.h; sourceTree = "<group>"; };
+		CF9A6E901DA833D4003A7F02 /* JSONAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONAPI.m; path = JSONModel/JSONModelNetworking/JSONAPI.m; sourceTree = "<group>"; };
+		CF9A6E911DA833D4003A7F02 /* JSONHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONHTTPClient.h; path = JSONModel/JSONModelNetworking/JSONHTTPClient.h; sourceTree = "<group>"; };
+		CF9A6E921DA833D4003A7F02 /* JSONHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONHTTPClient.m; path = JSONModel/JSONModelNetworking/JSONHTTPClient.m; sourceTree = "<group>"; };
+		CF9A6E931DA833D4003A7F02 /* JSONModel+networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "JSONModel+networking.h"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.h"; sourceTree = "<group>"; };
+		CF9A6E941DA833D4003A7F02 /* JSONModel+networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "JSONModel+networking.m"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.m"; sourceTree = "<group>"; };
+		CF9A6E991DA833F3003A7F02 /* JSONKeyMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONKeyMapper.h; path = JSONModel/JSONModelTransformations/JSONKeyMapper.h; sourceTree = "<group>"; };
+		CF9A6E9A1DA833F3003A7F02 /* JSONKeyMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONKeyMapper.m; path = JSONModel/JSONModelTransformations/JSONKeyMapper.m; sourceTree = "<group>"; };
+		CF9A6E9B1DA833F3003A7F02 /* JSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONValueTransformer.h; path = JSONModel/JSONModelTransformations/JSONValueTransformer.h; sourceTree = "<group>"; };
+		CF9A6E9C1DA833F3003A7F02 /* JSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONValueTransformer.m; path = JSONModel/JSONModelTransformations/JSONValueTransformer.m; sourceTree = "<group>"; };
+		CF9A6EA01DA835F3003A7F02 /* Trains.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Trains.h; path = Model/Trains.h; sourceTree = "<group>"; };
+		CF9A6EA11DA835F3003A7F02 /* Trains.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Trains.m; path = Model/Trains.m; sourceTree = "<group>"; };
+		CF9A6EA41DA83F4E003A7F02 /* EMAsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EMAsyncImageView.h; path = "Supporting Files/EMAsyncImageView/EMAsyncImageView.h"; sourceTree = "<group>"; };
+		CF9A6EA51DA83F4E003A7F02 /* EMAsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EMAsyncImageView.m; path = "Supporting Files/EMAsyncImageView/EMAsyncImageView.m"; sourceTree = "<group>"; };
+		CF9A6EA81DA84D85003A7F02 /* URLs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLs.h; sourceTree = "<group>"; };
+		CF9A6EA91DA84D85003A7F02 /* URLs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLs.m; sourceTree = "<group>"; };
+		CF9A6EAB1DA84FB1003A7F02 /* Bus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bus.h; path = Model/Bus.h; sourceTree = "<group>"; };
+		CF9A6EAC1DA84FB1003A7F02 /* Bus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Bus.m; path = Model/Bus.m; sourceTree = "<group>"; };
+		CF9A6EAE1DA8500D003A7F02 /* Flight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Flight.h; path = Model/Flight.h; sourceTree = "<group>"; };
+		CF9A6EAF1DA8500D003A7F02 /* Flight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Flight.m; path = Model/Flight.m; sourceTree = "<group>"; };
+		CF9A6EB11DA85037003A7F02 /* BusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BusCell.h; path = "Custom Cell/BusCell.h"; sourceTree = "<group>"; };
+		CF9A6EB21DA85037003A7F02 /* BusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BusCell.m; path = "Custom Cell/BusCell.m"; sourceTree = "<group>"; };
+		CF9A6EB31DA85037003A7F02 /* BusCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BusCell.xib; path = "Custom Cell/BusCell.xib"; sourceTree = "<group>"; };
+		CF9A6EB61DA8504D003A7F02 /* FlightCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlightCell.h; path = "Custom Cell/FlightCell.h"; sourceTree = "<group>"; };
+		CF9A6EB71DA8504D003A7F02 /* FlightCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlightCell.m; path = "Custom Cell/FlightCell.m"; sourceTree = "<group>"; };
+		CF9A6EB81DA8504D003A7F02 /* FlightCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FlightCell.xib; path = "Custom Cell/FlightCell.xib"; sourceTree = "<group>"; };
+		CF9A6EBB1DA8D430003A7F02 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		CF9A6EBC1DA8D430003A7F02 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		CF9A6EC91DA90467003A7F02 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = Reachability/Reachability.h; sourceTree = "<group>"; };
+		CF9A6ECA1DA90467003A7F02 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = Reachability/Reachability.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF9A6E401DA81561003A7F02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF9A6E3A1DA81561003A7F02 = {
+			isa = PBXGroup;
+			children = (
+				CF9A6E451DA81561003A7F02 /* GoEuro */,
+				CF9A6E441DA81561003A7F02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF9A6E441DA81561003A7F02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF9A6E431DA81561003A7F02 /* GoEuro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF9A6E451DA81561003A7F02 /* GoEuro */ = {
+			isa = PBXGroup;
+			children = (
+				CF9A6E491DA81561003A7F02 /* AppDelegate.h */,
+				CF9A6E4A1DA81561003A7F02 /* AppDelegate.m */,
+				CF9A6EA71DA84D54003A7F02 /* GoEuro */,
+				CF9A6E611DA81ECA003A7F02 /* Controller */,
+				CF9A6E9F1DA835C7003A7F02 /* Model */,
+				CF9A6E7C1DA8276C003A7F02 /* Custom Cell */,
+				CF9A6E4F1DA81561003A7F02 /* Main.storyboard */,
+				CF9A6E551DA81561003A7F02 /* Assets.xcassets */,
+				CF9A6E571DA81561003A7F02 /* LaunchScreen.storyboard */,
+				CF9A6E5A1DA81561003A7F02 /* Info.plist */,
+				CF9A6E461DA81561003A7F02 /* Supporting Files */,
+			);
+			path = GoEuro;
+			sourceTree = "<group>";
+		};
+		CF9A6E461DA81561003A7F02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF9A6EC51DA9004F003A7F02 /* Reachability */,
+				CF9A6EA31DA83EEB003A7F02 /* EMAsyncImageView */,
+				CF9A6E821DA83343003A7F02 /* JSONModel */,
+				CF9A6E741DA82081003A7F02 /* YSLContainerViewController */,
+				CF9A6E471DA81561003A7F02 /* main.m */,
+				CF9A6E7B1DA8217C003A7F02 /* GoEuro.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF9A6E611DA81ECA003A7F02 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CF9A6E621DA81F31003A7F02 /* GoEuroTabBarVC.h */,
+				CF9A6E631DA81F31003A7F02 /* GoEuroTabBarVC.m */,
+				CF9A6E651DA81FAE003A7F02 /* TrainViewController.h */,
+				CF9A6E661DA81FAE003A7F02 /* TrainViewController.m */,
+				CF9A6E671DA81FAE003A7F02 /* TrainViewController.xib */,
+				CF9A6E6A1DA81FC0003A7F02 /* BusViewController.h */,
+				CF9A6E6B1DA81FC0003A7F02 /* BusViewController.m */,
+				CF9A6E6C1DA81FC0003A7F02 /* BusViewController.xib */,
+				CF9A6E6F1DA81FDA003A7F02 /* FlightViewController.h */,
+				CF9A6E701DA81FDA003A7F02 /* FlightViewController.m */,
+				CF9A6E711DA81FDA003A7F02 /* FlightViewController.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CF9A6E741DA82081003A7F02 /* YSLContainerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CF9A6E751DA82099003A7F02 /* YSLContainerViewController.h */,
+				CF9A6E761DA82099003A7F02 /* YSLContainerViewController.m */,
+				CF9A6E771DA82099003A7F02 /* YSLScrollMenuView.h */,
+				CF9A6E781DA82099003A7F02 /* YSLScrollMenuView.m */,
+			);
+			name = YSLContainerViewController;
+			sourceTree = "<group>";
+		};
+		CF9A6E7C1DA8276C003A7F02 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CF9A6E7D1DA827B2003A7F02 /* TrainCell.h */,
+				CF9A6E7E1DA827B2003A7F02 /* TrainCell.m */,
+				CF9A6E7F1DA827B2003A7F02 /* TrainCell.xib */,
+				CF9A6EB11DA85037003A7F02 /* BusCell.h */,
+				CF9A6EB21DA85037003A7F02 /* BusCell.m */,
+				CF9A6EB31DA85037003A7F02 /* BusCell.xib */,
+				CF9A6EB61DA8504D003A7F02 /* FlightCell.h */,
+				CF9A6EB71DA8504D003A7F02 /* FlightCell.m */,
+				CF9A6EB81DA8504D003A7F02 /* FlightCell.xib */,
+			);
+			name = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		CF9A6E821DA83343003A7F02 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				CF9A6E981DA833E1003A7F02 /* JSONModelTransformations */,
+				CF9A6E8E1DA833CA003A7F02 /* JSONModelNetworking */,
+				CF9A6E8D1DA833C1003A7F02 /* JSONModelLib.h */,
+				CF9A6E831DA833A8003A7F02 /* JSONModel */,
+			);
+			name = JSONModel;
+			sourceTree = "<group>";
+		};
+		CF9A6E831DA833A8003A7F02 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				CF9A6E841DA833B4003A7F02 /* JSONModel.h */,
+				CF9A6E851DA833B4003A7F02 /* JSONModel.m */,
+				CF9A6E861DA833B4003A7F02 /* JSONModelClassProperty.h */,
+				CF9A6E871DA833B4003A7F02 /* JSONModelClassProperty.m */,
+				CF9A6E881DA833B4003A7F02 /* JSONModelError.h */,
+				CF9A6E891DA833B4003A7F02 /* JSONModelError.m */,
+			);
+			name = JSONModel;
+			sourceTree = "<group>";
+		};
+		CF9A6E8E1DA833CA003A7F02 /* JSONModelNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				CF9A6E8F1DA833D4003A7F02 /* JSONAPI.h */,
+				CF9A6E901DA833D4003A7F02 /* JSONAPI.m */,
+				CF9A6E911DA833D4003A7F02 /* JSONHTTPClient.h */,
+				CF9A6E921DA833D4003A7F02 /* JSONHTTPClient.m */,
+				CF9A6E931DA833D4003A7F02 /* JSONModel+networking.h */,
+				CF9A6E941DA833D4003A7F02 /* JSONModel+networking.m */,
+			);
+			name = JSONModelNetworking;
+			sourceTree = "<group>";
+		};
+		CF9A6E981DA833E1003A7F02 /* JSONModelTransformations */ = {
+			isa = PBXGroup;
+			children = (
+				CF9A6E991DA833F3003A7F02 /* JSONKeyMapper.h */,
+				CF9A6E9A1DA833F3003A7F02 /* JSONKeyMapper.m */,
+				CF9A6E9B1DA833F3003A7F02 /* JSONValueTransformer.h */,
+				CF9A6E9C1DA833F3003A7F02 /* JSONValueTransformer.m */,
+			);
+			name = JSONModelTransformations;
+			sourceTree = "<group>";
+		};
+		CF9A6E9F1DA835C7003A7F02 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CF9A6EA01DA835F3003A7F02 /* Trains.h */,
+				CF9A6EA11DA835F3003A7F02 /* Trains.m */,
+				CF9A6EAB1DA84FB1003A7F02 /* Bus.h */,
+				CF9A6EAC1DA84FB1003A7F02 /* Bus.m */,
+				CF9A6EAE1DA8500D003A7F02 /* Flight.h */,
+				CF9A6EAF1DA8500D003A7F02 /* Flight.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CF9A6EA31DA83EEB003A7F02 /* EMAsyncImageView */ = {
+			isa = PBXGroup;
+			children = (
+				CF9A6EA41DA83F4E003A7F02 /* EMAsyncImageView.h */,
+				CF9A6EA51DA83F4E003A7F02 /* EMAsyncImageView.m */,
+			);
+			name = EMAsyncImageView;
+			sourceTree = "<group>";
+		};
+		CF9A6EA71DA84D54003A7F02 /* GoEuro */ = {
+			isa = PBXGroup;
+			children = (
+				CF9A6EA81DA84D85003A7F02 /* URLs.h */,
+				CF9A6EA91DA84D85003A7F02 /* URLs.m */,
+				CF9A6EBB1DA8D430003A7F02 /* BaseViewController.h */,
+				CF9A6EBC1DA8D430003A7F02 /* BaseViewController.m */,
+			);
+			name = GoEuro;
+			sourceTree = "<group>";
+		};
+		CF9A6EC51DA9004F003A7F02 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				CF9A6EC91DA90467003A7F02 /* Reachability.h */,
+				CF9A6ECA1DA90467003A7F02 /* Reachability.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF9A6E421DA81561003A7F02 /* GoEuro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF9A6E5D1DA81561003A7F02 /* Build configuration list for PBXNativeTarget "GoEuro" */;
+			buildPhases = (
+				CF9A6E3F1DA81561003A7F02 /* Sources */,
+				CF9A6E401DA81561003A7F02 /* Frameworks */,
+				CF9A6E411DA81561003A7F02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoEuro;
+			productName = GoEuro;
+			productReference = CF9A6E431DA81561003A7F02 /* GoEuro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF9A6E3B1DA81561003A7F02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = lokesh;
+				TargetAttributes = {
+					CF9A6E421DA81561003A7F02 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CF9A6E3E1DA81561003A7F02 /* Build configuration list for PBXProject "GoEuro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF9A6E3A1DA81561003A7F02;
+			productRefGroup = CF9A6E441DA81561003A7F02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF9A6E421DA81561003A7F02 /* GoEuro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF9A6E411DA81561003A7F02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9A6E811DA827B2003A7F02 /* TrainCell.xib in Resources */,
+				CF9A6E591DA81561003A7F02 /* LaunchScreen.storyboard in Resources */,
+				CF9A6EBA1DA8504D003A7F02 /* FlightCell.xib in Resources */,
+				CF9A6E691DA81FAE003A7F02 /* TrainViewController.xib in Resources */,
+				CF9A6E561DA81561003A7F02 /* Assets.xcassets in Resources */,
+				CF9A6E6E1DA81FC0003A7F02 /* BusViewController.xib in Resources */,
+				CF9A6E731DA81FDA003A7F02 /* FlightViewController.xib in Resources */,
+				CF9A6EB51DA85037003A7F02 /* BusCell.xib in Resources */,
+				CF9A6E511DA81561003A7F02 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF9A6E3F1DA81561003A7F02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9A6EAD1DA84FB1003A7F02 /* Bus.m in Sources */,
+				CF9A6E961DA833D4003A7F02 /* JSONHTTPClient.m in Sources */,
+				CF9A6E951DA833D4003A7F02 /* JSONAPI.m in Sources */,
+				CF9A6E801DA827B2003A7F02 /* TrainCell.m in Sources */,
+				CF9A6E721DA81FDA003A7F02 /* FlightViewController.m in Sources */,
+				CF9A6E791DA82099003A7F02 /* YSLContainerViewController.m in Sources */,
+				CF9A6EB41DA85037003A7F02 /* BusCell.m in Sources */,
+				CF9A6EB01DA8500D003A7F02 /* Flight.m in Sources */,
+				CF9A6EBD1DA8D430003A7F02 /* BaseViewController.m in Sources */,
+				CF9A6E7A1DA82099003A7F02 /* YSLScrollMenuView.m in Sources */,
+				CF9A6E8B1DA833B4003A7F02 /* JSONModelClassProperty.m in Sources */,
+				CF9A6E6D1DA81FC0003A7F02 /* BusViewController.m in Sources */,
+				CF9A6E641DA81F31003A7F02 /* GoEuroTabBarVC.m in Sources */,
+				CF9A6E8A1DA833B4003A7F02 /* JSONModel.m in Sources */,
+				CF9A6EA61DA83F4E003A7F02 /* EMAsyncImageView.m in Sources */,
+				CF9A6E9E1DA833F3003A7F02 /* JSONValueTransformer.m in Sources */,
+				CF9A6E9D1DA833F3003A7F02 /* JSONKeyMapper.m in Sources */,
+				CF9A6E681DA81FAE003A7F02 /* TrainViewController.m in Sources */,
+				CF9A6EB91DA8504D003A7F02 /* FlightCell.m in Sources */,
+				CF9A6E8C1DA833B4003A7F02 /* JSONModelError.m in Sources */,
+				CF9A6E4B1DA81561003A7F02 /* AppDelegate.m in Sources */,
+				CF9A6ECB1DA90467003A7F02 /* Reachability.m in Sources */,
+				CF9A6E481DA81561003A7F02 /* main.m in Sources */,
+				CF9A6EAA1DA84D85003A7F02 /* URLs.m in Sources */,
+				CF9A6E971DA833D4003A7F02 /* JSONModel+networking.m in Sources */,
+				CF9A6EA21DA835F3003A7F02 /* Trains.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF9A6E4F1DA81561003A7F02 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF9A6E501DA81561003A7F02 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF9A6E571DA81561003A7F02 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF9A6E581DA81561003A7F02 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF9A6E5B1DA81561003A7F02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF9A6E5C1DA81561003A7F02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF9A6E5E1DA81561003A7F02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "GoEuro/Supporting Files/GoEuro.pch";
+				INFOPLIST_FILE = GoEuro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lokesh.GoEuro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF9A6E5F1DA81561003A7F02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "GoEuro/Supporting Files/GoEuro.pch";
+				INFOPLIST_FILE = GoEuro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lokesh.GoEuro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF9A6E3E1DA81561003A7F02 /* Build configuration list for PBXProject "GoEuro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF9A6E5B1DA81561003A7F02 /* Debug */,
+				CF9A6E5C1DA81561003A7F02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF9A6E5D1DA81561003A7F02 /* Build configuration list for PBXNativeTarget "GoEuro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF9A6E5E1DA81561003A7F02 /* Debug */,
+				CF9A6E5F1DA81561003A7F02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF9A6E3B1DA81561003A7F02 /* Project object */;
+}
