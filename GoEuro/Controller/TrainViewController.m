@@ -22,6 +22,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    //Add Sorting observer
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(sortButtonToggle:) name:TravelBy.Train object:nil];
+    
     //Call WebService
     [self callWebServiceWithURL:[URLs train]];
 }
@@ -29,6 +32,15 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - Action
+
+- (void) sortButtonToggle:(NSNotification *) notification {
+    
+    SortClass *sorting = [[SortClass alloc] init];
+    _trains = [sorting sortTrainsWithArray:_trains sortKey:notification.object];
+    [_tableView reloadData];
 }
 
 #pragma mark - HandleResponse

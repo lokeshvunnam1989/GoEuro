@@ -15,7 +15,10 @@
 #define STATUS_HEIGHT [[UIApplication sharedApplication] statusBarFrame].size.height
 #define NAVIG_HEIGHT self.navigationController.navigationBar.frame.size.height
 
+#define kSortIcon [[UIImage imageNamed:@"Sorting Arrows"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]
+
 #import "AppDelegate.h"
+#import "GoEuroTabBarVC.h"
 #import "BaseViewController.h"
 #import "YSLContainerViewController.h"
 #import "TrainViewController.h"
@@ -38,5 +41,8 @@
 
 //GoEuro
 #import "URLs.h"
+
+//Swift-Bridging
+#import "GoEuro-Swift.h"
 
 #endif /* GoEuro_pch */
